@@ -1,7 +1,49 @@
 body{
-    background-color: cornflowerblue;
+  background: #ffe6cc;
+    margin: 0;
+}
+nav li a{
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color:#ffe6cc;
+  background: #b30000;
+  width: 50;
+  padding: 8px 16px;
+  margin-bottom: 30;
+  margin-left: 20;
+  border-radius: 10px;
+  box-shadow: 3px 2px 4px #800000;
+
 }
 
-h1{
-    background: crimson;
+nav ul{
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  position: fixed;
+  padding-top: 30;
+  background: #990000;
+  width: 135;
+  height: 100%;
+  box-shadow: 4px 0px 4px  #ffcc99 ;
+}
+
+.texbox {
+  padding: 30 50 40 200;
+}
+
+.bildar {
+  padding: 30 50 40 200;
+}
+
+img {
+  width: 960;
+  height: 540;
+  margin-bottom: 33;
+  box-shadow: 3px 4px 4px #ffcc99;
 }
